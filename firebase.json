@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist",  // Directory where your built app resides (for example, `build` or `dist`)
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
